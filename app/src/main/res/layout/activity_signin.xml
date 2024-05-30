@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signin">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="388dp"
+        android:layout_height="339dp"
+        android:layout_marginBottom="492dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/shape" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="397dp"
+        android:layout_height="236dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/signinbg" />
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="391dp"
+        android:layout_height="380dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.475"
+        app:srcCompat="@drawable/signinwhitebg" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="306dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#454545"
+        android:text="Sign In"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#BDB9B9"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/editTextText2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.486" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:backgroundTint="#EDEDED"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/button11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toStartOf="@+id/button10"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.64" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="323dp"
+        android:layout_height="63dp"
+        android:text="Sign In to access your account and continue where you left off. We're glad to have you back with us!"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#FEFEFE"
+        android:text="Continue with Google"
+        android:textColor="#454545"
+        app:icon="@drawable/google"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:backgroundTint="#FEFEFE"
+        android:text="Continue with Facebook"
+        android:textColor="#454545"
+        app:icon="@drawable/fb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#002B2D30"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="158dp"
+        android:layout_marginBottom="9dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="Forgot Pasword?"
+        android:textColor="#454545"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

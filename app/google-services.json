@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "420373860741",
+    "project_id": "moots-ad5b0",
+    "storage_bucket": "moots-ad5b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420373860741:android:2ad8111450c6447132f4ec",
+        "android_client_info": {
+          "package_name": "com.moots.moots"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoq1syi27GHVgE4tWzHvpvPaARSTRZ8qg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
