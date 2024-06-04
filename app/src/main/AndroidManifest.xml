@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.moots.moots">
 
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Moots"
         tools:targetApi="31">
+        <activity
+            android:name=".profile"
+            android:exported="false" />
         <activity
             android:name=".signup"
             android:exported="false" />
