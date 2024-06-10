@@ -60,17 +60,18 @@
     <androidx.cardview.widget.CardView
         android:layout_width="39dp"
         android:layout_height="38dp"
+        android:layout_marginStart="16dp"
         app:cardCornerRadius="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.178">
+        app:layout_constraintVertical_bias="0.206">
 
-        <!--        <ImageView-->
-        <!--            android:id="@+id/imageView3"-->
-        <!--            android:layout_width="match_parent"-->
-        <!--            android:layout_height="match_parent"-->
-        <!--            tools:srcCompat="@tools:sample/avatars" />-->
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:srcCompat="@tools:sample/avatars" />
 
     </androidx.cardview.widget.CardView>
 

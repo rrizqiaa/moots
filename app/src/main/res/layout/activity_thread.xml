@@ -5,6 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="100dp"
+        android:layout_height="93dp"
+        app:srcCompat="@drawable/full_stop_removebg_preview"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="557dp" />
+
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
@@ -13,8 +21,49 @@
         android:textColor="@color/black"
         android:textSize="13dp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="301dp" />
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="27 shares"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4 shares"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="492dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="100dp"
+        android:layout_height="93dp"
+        app:srcCompat="@drawable/full_stop_removebg_preview"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8.572 likes"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="492dp" />
 
     <ImageView
         android:id="@+id/imageView12"
@@ -55,7 +104,7 @@
         android:layout_width="27dp"
         android:layout_height="27dp"
         app:srcCompat="@drawable/chat"
-        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteX="178dp"
         tools:layout_editor_absoluteY="534dp" />
 
     <ImageView
@@ -63,17 +112,7 @@
         android:layout_width="27dp"
         android:layout_height="27dp"
         app:srcCompat="@drawable/share"
-        tools:layout_editor_absoluteX="357dp"
-        tools:layout_editor_absoluteY="534dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton7"
-        android:layout_width="27dp"
-        android:layout_height="27dp"
-        android:background="FFFFF"
-        android:scaleType="fitCenter"
-        app:srcCompat="@drawable/like"
-        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteX="330dp"
         tools:layout_editor_absoluteY="534dp" />
 
     <ImageView
@@ -81,7 +120,7 @@
         android:layout_width="27dp"
         android:layout_height="27dp"
         app:srcCompat="@drawable/bookmark"
-        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteX="262dp"
         tools:layout_editor_absoluteY="534dp" />
 
     <ImageView
@@ -89,8 +128,8 @@
         android:layout_width="27dp"
         android:layout_height="27dp"
         app:srcCompat="@drawable/chat"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="333dp" />
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="318dp" />
 
     <ImageButton
         android:id="@+id/imageButton7"
@@ -99,24 +138,24 @@
         android:background="FFFFF"
         android:scaleType="fitCenter"
         app:srcCompat="@drawable/like"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="333dp" />
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="318dp" />
 
     <ImageView
         android:id="@+id/imageView14"
         android:layout_width="27dp"
         android:layout_height="27dp"
         app:srcCompat="@drawable/share"
-        tools:layout_editor_absoluteX="357dp"
-        tools:layout_editor_absoluteY="333dp" />
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="318dp" />
 
     <ImageView
         android:id="@+id/imageView13"
         android:layout_width="27dp"
         android:layout_height="27dp"
         app:srcCompat="@drawable/bookmark"
-        tools:layout_editor_absoluteX="320dp"
-        tools:layout_editor_absoluteY="333dp" />
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="318dp" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -160,52 +199,164 @@
         tools:layout_editor_absoluteX="211dp"
         tools:layout_editor_absoluteY="95dp" />
 
+
     <androidx.cardview.widget.CardView
-        android:layout_width="39dp"
-        android:layout_height="38dp"
-        android:layout_marginStart="24dp"
-        app:cardCornerRadius="100dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.215">
+            android:layout_width="39dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="32dp"
+            app:cardCornerRadius="100dp">
+    </androidx.cardview.widget.CardView>
 
     <TextView
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="74dp"
-        tools:layout_editor_absoluteY="178dp" />
+        android:text="musdalifah"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="149dp" />
 
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="100dp"
         android:layout_height="93dp"
         app:srcCompat="@drawable/full_stop_removebg_preview"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="143dp" />
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="114dp" />
 
     <TextView
         android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="178dp" />
+        android:text="12 hr ago"
+        android:textColor="@color/darkgrey"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="149dp" />
 
     <TextView
         android:id="@+id/textView21"
+        android:layout_width="301dp"
+        android:layout_height="66dp"
+        android:text="Mau berak!!! Tapi toiletnya penuh dan antriannya panjang banget! Sambil menahan, cuma bisa berharap antrian cepat bergerak. Sungguh ujian kesabaran di saat-saat darurat! #SabarDikit #UjianHidup"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <TextView
+        android:id="@+id/textView22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="74dp"
-        tools:layout_editor_absoluteY="207dp" />
+        android:text="puchi"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="374dp" />
 
-    <!--        <ImageView-->
-    <!--            android:id="@+id/imageView3"-->
-    <!--            android:layout_width="match_parent"-->
-    <!--            android:layout_height="match_parent"-->
-    <!--            tools:srcCompat="@tools:sample/avatars" />-->
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hidup gini amat,"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18 hr ago"
+        android:textColor="@color/darkgrey"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kadang diatas,"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kadang digidaw."
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="304 comments"
+        android:textColor="@color/silver"
+        android:textSize="11dp"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="muka.monyong"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="591dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="266dp"
+        android:layout_height="52dp"
+        android:text="woi, kucing gua aneh banget dah, kenapa tiba-tiba ngeong, tiba-tiba berubah jadi yahudi"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="616dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20 hr ago"
+        android:textColor="@color/darkgrey"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="591dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25 likes"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="687dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 comments"
+        android:textColor="@color/silver"
+        android:textSize="11dp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="706dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4 shares"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="687dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/heart"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="534dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
