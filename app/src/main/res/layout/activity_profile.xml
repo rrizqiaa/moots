@@ -32,7 +32,7 @@
         android:id="@+id/imageButton2"
         android:layout_width="59dp"
         android:layout_height="61dp"
-        android:background="FFFFF"
+        android:background="@color/clear"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -131,7 +131,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="42dp"
-        android:text="'@jumpshoot.booyah"
+        android:text="@jumpshoot.booyah"
         app:layout_constraintBottom_toTopOf="@+id/textView14"
         app:layout_constraintEnd_toStartOf="@+id/button"
         app:layout_constraintStart_toEndOf="@+id/cardView"
@@ -206,7 +206,6 @@
         android:id="@+id/imageButton8"
         android:layout_width="131dp"
         android:layout_height="131dp"
-        android:layout_marginEnd="1dp"
         android:layout_marginBottom="168dp"
         app:layout_constraintBottom_toTopOf="@+id/nav"
         app:layout_constraintEnd_toStartOf="@+id/imageButton9"
@@ -250,10 +249,10 @@
     <!--    Navbar-->
 
     <ImageButton
-        android:id="@+id/home"
+        android:id="@+id/bt_home"
         android:layout_width="45dp"
         android:layout_height="45dp"
-        android:background="FFFFF"
+        android:background="@color/clear"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -264,55 +263,55 @@
         app:srcCompat="@drawable/home" />
 
     <ImageButton
-        android:id="@+id/search"
+        android:id="@+id/bt_search"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginEnd="256dp"
-        android:background="FFFFF"
+        android:background="@color/clear"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/home"
+        app:layout_constraintStart_toEndOf="@+id/bt_home"
         app:layout_constraintTop_toTopOf="@+id/nav"
         app:srcCompat="@drawable/search" />
 
     <ImageButton
-        android:id="@+id/up"
+        android:id="@+id/bt_up"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginStart="40dp"
-        android:background="FFFFF"
+        android:background="@color/clear"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="@+id/nav"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/search"
+        app:layout_constraintStart_toEndOf="@+id/bt_search"
         app:layout_constraintTop_toTopOf="@+id/nav"
         app:srcCompat="@drawable/up" />
 
     <ImageButton
-        android:id="@+id/like"
+        android:id="@+id/bt_like"
         android:layout_width="45dp"
         android:layout_height="45dp"
-        android:background="FFFFF"
+        android:background="@color/clear"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="@+id/nav"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.328"
-        app:layout_constraintStart_toEndOf="@+id/up"
+        app:layout_constraintStart_toEndOf="@+id/bt_up"
         app:layout_constraintTop_toTopOf="@+id/nav"
         app:srcCompat="@drawable/like" />
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/profile"
+        android:id="@+id/bt_profile"
         android:layout_width="45dp"
         android:layout_height="45dp"
         app:cardCornerRadius="100dp"
         app:layout_constraintBottom_toBottomOf="@+id/nav"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.578"
-        app:layout_constraintStart_toEndOf="@+id/like"
+        app:layout_constraintStart_toEndOf="@+id/bt_like"
         app:layout_constraintTop_toTopOf="@+id/nav"
         app:layout_constraintVertical_bias="0.555">
 

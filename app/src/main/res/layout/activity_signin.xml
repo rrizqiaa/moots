@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/shape" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/imageButton"
         android:layout_width="397dp"
         android:layout_height="236dp"
@@ -43,7 +43,7 @@
         app:srcCompat="@drawable/signinwhitebg" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/bt_gotohome"
         android:layout_width="306dp"
         android:layout_height="59dp"
         android:backgroundTint="#454545"
@@ -160,7 +160,7 @@
         android:backgroundTint="#00FFFFFF"
         android:text="Forgot Pasword?"
         android:textColor="#454545"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintBottom_toTopOf="@+id/bt_gotohome"
         app:layout_constraintEnd_toEndOf="@+id/imageView5"
         app:layout_constraintHorizontal_bias="0.94"
         app:layout_constraintStart_toStartOf="parent"

@@ -6,12 +6,20 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/icon_only"
         android:layout_width="179dp"
         android:layout_height="140dp"
         app:srcCompat="@drawable/icon"
         tools:layout_editor_absoluteX="116dp"
         tools:layout_editor_absoluteY="-14dp" />
+
+    <ImageButton
+        android:id="@+id/menu"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="30dp" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -19,7 +27,6 @@
         android:layout_height="53dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
         app:layout_constraintVertical_bias="0.979"
         app:srcCompat="@drawable/signinbg" />
 
@@ -27,19 +34,11 @@
         android:id="@+id/imageButton7"
         android:layout_width="27dp"
         android:layout_height="27dp"
-        android:background="FFFFF"
+        android:background="@color/clear"
         android:scaleType="fitCenter"
         app:srcCompat="@drawable/like"
         tools:layout_editor_absoluteX="21dp"
         tools:layout_editor_absoluteY="620dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="39dp"
-        android:layout_height="40dp"
-        app:srcCompat="@android:drawable/ic_menu_sort_by_size"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="30dp" />
 
     <Button
         android:id="@+id/button9"
