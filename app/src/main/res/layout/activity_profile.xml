@@ -57,7 +57,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteX="142dp"
         tools:layout_editor_absoluteY="200dp" />
 
     <Button
@@ -65,6 +65,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
         tools:layout_editor_absoluteX="308dp"
         tools:layout_editor_absoluteY="130dp" />
 
@@ -108,58 +110,138 @@
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="371dp"
-        android:layout_height="40dp"
+        android:layout_width="357dp"
+        android:layout_height="38dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="220dp" />
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="222dp" />
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="135dp"
+        android:layout_height="128dp"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="310dp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="446dp"
+        android:layout_width="135dp"
+        android:layout_height="134dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="437dp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="446dp"
+        android:layout_width="138dp"
+        android:layout_height="134dp"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="438dp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="260dp"
-        tools:layout_editor_absoluteY="446dp"
+        android:layout_width="138dp"
+        android:layout_height="136dp"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="437dp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="118dp"
+        android:layout_width="135dp"
+        android:layout_height="127dp"
+        tools:layout_editor_absoluteX="135dp"
         tools:layout_editor_absoluteY="310dp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="270dp"
+        android:layout_width="136dp"
+        android:layout_height="125dp"
+        tools:layout_editor_absoluteX="273dp"
         tools:layout_editor_absoluteY="312dp"
         tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="412dp"
+        android:layout_height="53dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintVertical_bias="0.979"
+        app:srcCompat="@drawable/signinbg" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="40dp"
+        android:layout_height="43dp"
+        android:background="FFFFF"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/home"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="687dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="40dp"
+        android:layout_height="43dp"
+        android:background="FFFFF"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/search"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="687dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="40dp"
+        android:layout_height="43dp"
+        android:background="FFFFF"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/up"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="687dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="40dp"
+        android:layout_height="43dp"
+        android:background="FFFFF"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/like"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="687dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="40dp"
+        android:layout_height="43dp"
+        android:background="FFFFF"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/home"
+        tools:layout_editor_absoluteX="355dp"
+        tools:layout_editor_absoluteY="687dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:cardCornerRadius="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.961"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998">
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/imageView3"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            tools:srcCompat="@tools:sample/avatars" />-->
+
+    </androidx.cardview.widget.CardView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
