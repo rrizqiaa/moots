@@ -18,11 +18,7 @@ class first : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val bt_signin = findViewById<Button>(R.id.bt_signin)
-        bt_signin.setOnClickListener{
-            val intent = Intent(this, signin::class.java)
-            startActivity(intent)
-        }
+//
 
 
     }
