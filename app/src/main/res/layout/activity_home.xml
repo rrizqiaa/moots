@@ -53,7 +53,7 @@
         tools:layout_editor_absoluteY="95dp" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/bt_thread"
         android:layout_width="197dp"
         android:layout_height="39dp"
         android:text="Thread"

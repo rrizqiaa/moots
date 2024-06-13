@@ -46,8 +46,8 @@
         android:layout_width="105dp"
         android:layout_height="59dp"
         app:srcCompat="@drawable/wallpapersden_com_lo_fi_room_cool_anime_3584x2048"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="587dp" />
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="435dp" />
 
     <ImageView
         android:id="@+id/imageView22"

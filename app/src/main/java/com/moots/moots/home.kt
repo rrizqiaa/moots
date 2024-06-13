@@ -1,6 +1,8 @@
 package com.moots.moots
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,6 +18,11 @@ class home : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+        }
+        val bt_thread = findViewById<Button>(R.id.bt_thread)
+        bt_thread.setOnClickListener{
+            val intent = Intent(this, Sthread::class.java)
+            startActivity(intent)
         }
     }
 }

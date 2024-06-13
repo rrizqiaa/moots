@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="2dp"
+    tools:layout_editor_absoluteY="-19dp">
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/kisspng_computer_icons_encapsulated_postscript_5b3c6ab956c0b2_0248482515306861373554_removebg_preview"
+        tools:layout_editor_absoluteX="367dp"
+        tools:layout_editor_absoluteY="571dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/kisspng_computer_icons_encapsulated_postscript_5b3c6ab956c0b2_0248482515306861373554_removebg_preview"
+        tools:layout_editor_absoluteX="367dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/kisspng_computer_icons_encapsulated_postscript_5b3c6ab956c0b2_0248482515306861373554_removebg_preview"
+        tools:layout_editor_absoluteX="367dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="131dp"
+        android:layout_height="131dp"
+        android:layout_marginBottom="432dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton7"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="100dp"
+        android:layout_height="93dp"
+        app:srcCompat="@drawable/full_stop_removebg_preview"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8.572 likes"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="27 shares"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="100dp"
+        android:layout_height="93dp"
+        app:srcCompat="@drawable/full_stop_removebg_preview"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8.572 likes"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4 shares"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        app:srcCompat="@drawable/chat"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="750dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:background="FFFFF"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/like"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="750dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        app:srcCompat="@drawable/bookmark"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="750dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        app:srcCompat="@drawable/share"
+        tools:layout_editor_absoluteX="340dp"
+        tools:layout_editor_absoluteY="750dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        app:srcCompat="@drawable/chat"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        app:srcCompat="@drawable/bookmark"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/heart"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        app:srcCompat="@drawable/share"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        app:srcCompat="@drawable/chat"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:background="FFFFF"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/like"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        app:srcCompat="@drawable/share"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        app:srcCompat="@drawable/bookmark"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <ImageView
+        android:id="@+id/imageVie"
+        android:layout_width="179dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/icon"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="-14dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="196dp"
+        android:layout_height="39dp"
+        android:backgroundTint="@color/white"
+        android:text="Post"
+        android:textColor="@color/darkgrey"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="197dp"
+        android:layout_height="39dp"
+        android:backgroundTint="@color/white"
+        android:text="Thread"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="musdalifah"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="100dp"
+        android:layout_height="93dp"
+        app:srcCompat="@drawable/full_stop_removebg_preview"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12 hr ago"
+        android:textColor="@color/darkgrey"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="301dp"
+        android:layout_height="66dp"
+        android:text="Mau berak!!! Tapi toiletnya penuh dan antriannya panjang banget! Sambil menahan, cuma bisa berharap antrian cepat bergerak. Sungguh ujian kesabaran di saat-saat darurat! #SabarDikit #UjianHidup"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="puchi"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18 hr ago"
+        android:textColor="@color/darkgrey"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kadang diatas,"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hidup gini amat,"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kadang digidaw."
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="442dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="304 comments"
+        android:textColor="@color/silver"
+        android:textSize="11dp"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="muka.monyong"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="572dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="266dp"
+        android:layout_height="52dp"
+        android:text="woi, kucing gua aneh banget dah, kenapa tiba-tiba ngeong, tiba-tiba berubah jadi yahudi"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="597dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20 hr ago"
+        android:textColor="@color/darkgrey"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="572dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4 shares"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="660dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25 likes"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="660dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 comments"
+        android:textColor="@color/silver"
+        android:textSize="11dp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="679dp" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="39dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="36dp"
+        app:cardCornerRadius="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.215">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="39dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="36dp"
+        app:cardCornerRadius="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.539">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="39dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="36dp"
+        app:cardCornerRadius="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/paragraph"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
